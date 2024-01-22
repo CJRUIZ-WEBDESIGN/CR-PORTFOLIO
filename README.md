@@ -2,7 +2,7 @@
 
 ## 🌐 Detalles del Portfolio
 
-Mi nombre es Cristian Ruiz en mi portfolio personal de Desarrollador FrontEnd React, un breve explicacion de mi persona, mis logros, mi metas y mis desafios. 
+Mi nombre es Cristian Ruiz en mi portfolio personal de Desarrollador FrontEnd React, una breve explicacion de mi persona, mis logros, mi metas y mis desafios y los servicios que voy a ofrecer. 
 
 ## 🛠 Tecnologías Utilizadas
 
