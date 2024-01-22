@@ -1,11 +1,15 @@
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import NavBarMui from "./components/NavBar/NavBarMui";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CssBaseline from "@mui/material/CssBaseline";
+import Portafolio from "./components/pages/Portafolio/Portafolio";
+import SobreMi from "./components/pages/SobreMi/SobreMi";
+import Habilidades from "./components/pages/Habilidades/Habilidades";
+import Inicio from "./components/pages/Inicio/Inicio";
 import Contacto from "./components/pages/Contacto/Contacto";
-import AcercaDeMi from "./components/pages/AcercaDeMi/AcercaDeMi";
-import Plans from "./components/utils/Plans";
-import "./App.css";
+import Servicios from "./components/pages/Servicios/Servicios";
+
+
+import "./App.scss";
+import CssBaseline from "@mui/material/CssBaseline";
 
 function App() {
   return (
@@ -16,16 +20,39 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/inicio"
           element={
-            <ItemListContainer bienvenido="Bienvenidos a mi PortFolio" />
+            <Inicio Inicio="Inicio" />
           }
         />
-        <Route path="/acercademi" element={<AcercaDeMi />} />
         <Route
-          path="/Contacto"
+          path="/Portafolio"
           element={
-            <Contacto Contacto="Bienvenidos a la Seccion de Contacto." />
+            <Portafolio Portafolio="Portafolio" />
+          }
+        />
+        <Route
+          path="/sobremi"
+          element={
+            <SobreMi SobreMi="SobreMi" />
+          }
+        />
+        <Route
+          path="/habilidades"
+          element={
+            <Habilidades Habilidades="Habilidades" />
+          }
+        />
+        <Route
+          path="/contacto"
+          element={
+            <Contacto Contacto="Contacto" />
+          }
+        />
+        <Route
+          path="/servicios"
+          element={
+            <Servicios Servicios="Servicios" />
           }
         />
       </Routes>

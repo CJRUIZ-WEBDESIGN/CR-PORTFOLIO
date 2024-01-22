@@ -1,9 +1,9 @@
 import "./Contacto.scss"
 
-const Contacto = ({contacto}) => {
+const Contacto = ({}) => {
   return (
     <div className="contact">
-      <h1>{contacto}</h1>
+      <h1>Contacto</h1>
     </div>
   )
 }

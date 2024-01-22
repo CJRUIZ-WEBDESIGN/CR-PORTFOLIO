@@ -5,8 +5,7 @@ const ItemListContainer = ({ bienvenido }) => {
   return (
     <section className="ItemListContainer">
       <div className="divcontainer">
-      <Plans />
-            </div>
+      </div>
 
 
     </section>

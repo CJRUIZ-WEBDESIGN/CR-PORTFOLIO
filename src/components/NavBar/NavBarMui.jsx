@@ -5,51 +5,53 @@ import ListDivider from "@mui/joy/ListDivider";
 import ListItem from "@mui/joy/ListItem";
 import ListItemButton from "@mui/joy/ListItemButton";
 import Home from "@mui/icons-material/Home";
-import Person from "@mui/icons-material/Person";
 
 export default function HorizontalList() {
   return (
-    <Box component="nav" aria-label="My site" sx={{ flexGrow: 1 }}>
+    <Box component="nav" aria-label="CR Porfolio" sx={{ flexGrow: 1 }}>
       <List role="menubar" orientation="horizontal">
         <ListItem role="none">
           <ListItemButton
             role="menuitem"
             component={Link}
-            to="/HomePage"
-            aria-label="Home"
-          >
-            <Home />
+            to="/Inicio"
+            aria-label="Inicio">
+              <Home />
           </ListItemButton>
         </ListItem>
         <ListDivider />
         <ListItem role="none">
-          <ListItemButton role="menuitem" component={Link} to="/Contacto">
+          <ListItemButton role="menuitem" component={Link} to="/Portfolio">
+          Portfolio
+          </ListItemButton>
+        </ListItem>
+        <ListDivider />
+        <ListItem role="none">
+          <ListItemButton role="menuitem" component={Link} to="/SobreMi">
+            Sobre Mi
+          </ListItemButton>
+        </ListItem>
+        <ListDivider />
+        <ListItem role="none">
+          <ListItemButton role="menuitem" component={Link} to="/Habilidades">
+          Habilidades
+          </ListItemButton>
+        </ListItem>
+        <ListDivider />
+        <ListItem role="none">
+          <ListItemButton role="menuitem" component={Link} to="/Contacto ">
             Contacto
           </ListItemButton>
         </ListItem>
         <ListDivider />
+
         <ListItem role="none">
-          <ListItemButton role="menuitem" component={Link} to="/HomePage">
-            Inicio
-          </ListItemButton>
-        </ListItem>
-        <ListItem role="none">
-          <ListItemButton role="menuitem" component={Link} to="/AcercaDeMi">
-            Acerca de Mi{" "}
+          <ListItemButton role="menuitem" component={Link} to="/Servicios">
+            Servicios
           </ListItemButton>
         </ListItem>
         <ListDivider />
 
-        <ListItem role="none" sx={{ marginInlineStart: "auto" }}>
-          <ListItemButton
-            role="menuitem"
-            component={Link}
-            to="/profile"
-            aria-label="Profile"
-          >
-            <Person />
-          </ListItemButton>
-        </ListItem>
       </List>
     </Box>
   );
