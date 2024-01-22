@@ -1,0 +1,16 @@
+.ItemListContainer {
+    max-width: 1400px;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: gray; 
+    margin: 0;
+    padding: 30px;
+}
+
+.divcontainer {
+    max-width: 340px;
+    height: 300px;
+}
