@@ -17,13 +17,13 @@ Mi nombre es Cristian Ruiz en mi portfolio personal de Desarrollador FrontEnd Re
 Clonar el Repositorio: 
 
 ```bash
-  git clone https://github.com/CJRUIZ-WEBDESIGN/CR-PORTFOLIO.git
+  git clone https://github.com/PixelarStudio/cr-portfolio.git
 ```
 
 Ingresar al Proyecto:
 
 ```bash
-  cd CR-PORTFOLIO
+  cd cr-portfolio
 ```
 
 Abrir el Proyecto 
@@ -32,4 +32,4 @@ Abrir el Proyecto
 ```
 
 ## 🔗 Repositorio del Proyecto.
-- [Proyecto Cristian Ruiz Porfolio](https://github.com/CJRUIZ-WEBDESIGN/CR-PORTFOLIO)
+- [Proyecto Cristian Ruiz Porfolio](https://github.com/PixelarStudio/cr-portfolio)
